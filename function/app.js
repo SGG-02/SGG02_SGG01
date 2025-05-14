@@ -20,6 +20,7 @@ arrowBtns.forEach(btn => {
     })
 });
 
+
 const dragStart = (e) => {
     isDragging = true;
     carousel.classList.add("dragging");

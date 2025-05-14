@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="../design/style.css">
+  <link rel="stylesheet" href="design/style.css">
   <link rel="icon" href="images/SGGlogo.png">
   <script src="C:\Users\PC2\Downloads\DANIEL HTML file\function\app.js" defer></script>
 </head>
@@ -18,7 +18,7 @@
     <header id="home">
       <div class="main">
         <div class="logo">
-          <img src="images/SGGlogo.png"/>
+          <img src="design/images/SGGlogo.png"/>
           <div class="menu-toggle" id="mobile-menu">
             <div class="bar">☰</div>
           </div>
@@ -65,7 +65,7 @@
     <ul class="carousel">
       <!-- Card 1 -->
       <li class="card">
-        <img src="images/ALS-img.jpg" alt="Alternative">
+        <img src="design/images/ALS-img.png" alt="Alternative">
         <div class="description" style="display: none;">
           The Department of Education's <b>Alternative Learning System (ALS)</b> is a parallel non-formal learning system for out-of-school children, youth, 
           and adults (OSCYAs) in the Philippines. It provides an alternative pathway for individuals who have not completed basic education in the formal system. 
@@ -76,7 +76,7 @@
 
       <!-- Card 2 -->
       <li class="card">
-        <img src="images/Automotive-img.jpg" alt="Automotive">
+        <img src="public/images/Automotive-img.jpg" alt="Automotive">
         <div class="description" style="display: none;">
           <b>The AUTOMOTIVE SERVICING NCI & NCII</b> Qualification consist of competencies that
           a person must achieve to perform pre-delivery inspection and periodic maintenance
@@ -86,7 +86,7 @@
 
       <!-- Card 3 -->
       <li class="card">
-        <img src="images/ComputerSys-img.jpg" alt="Computer Services">
+        <img src="public/images/ComputerSys-img.jpg" alt="Computer Services">
         <div class="description" style="display: none;">
           <b>The COMPUTER SYSTEMS SERVICING NCII</b><br> Qualification consists of competencies
           that must possess to enable to install and configure computers systems, set-up computer
@@ -96,7 +96,7 @@
 
       <!-- Card 4 -->
       <li class="card">
-        <img src="images/Bookkeeping-img.jpg" alt="Bookkeeping">
+        <img src="public/images/Bookkeeping-img.jpg" alt="Bookkeeping">
         <div class="description" style="display: none;">
           <b>The BOOKKEEPING NCIII</b> Qualification consists of competencies that a person
           must achieve to enable him/her to journalize transactions, post transactions, prepare
@@ -106,7 +106,7 @@
 
       <!-- Card 5 -->
       <li class="card">
-        <img src="images/KoreanLang-img.jpg" alt="Korean Language">
+        <img src="public/images/KoreanLang-img.jpg" alt="Korean Language">
         <div class="description" style="display: none;">
           Learning the basic <b>Korean</b> words used in daily life is one of the first steps to learning to speak Korean. 
           Simple words like "yes" and "no" and basic greetings like "goodbye" and "see you tomorrow" are useful in everyday situations. 
@@ -233,7 +233,7 @@
       <!-- ABOUT US CONTAINER 1 -->
       <div class="aboutCon">
         <div class="about-image">
-          <img src="images/bground.jpg">
+          <img src="public/images/bground.jpg">
         </div>
         <div class="about-content">
           <h2>What is SGG?</h2>
@@ -269,7 +269,7 @@
 
 
     <div class="highlightCon" style="background-image: linear-gradient(to left, rgba(255, 255, 255, 1) 40%, rgba(255, 255, 255, 0) 100%), 
-      url(images/sample3-2.jpg);">
+      url(public/images/sample3-2.jpg);">
       <div class="highlight-content">
         <h3 class="highlight-date">May 02, 2025</h3>
         <h2>Where Passion Meets Progress: Learning the Basics, Building the Future</h2>
@@ -285,7 +285,7 @@
     </div>
     
     <div class="highlightCon" style="background-image: linear-gradient(to left, rgba(255, 255, 255, 1) 40%, rgba(255, 255, 255, 0) 100%), 
-      url(images/bg.jpg);">
+      url(public/images/bg.jpg);">
       <div class="highlight-content">
         <h3 class="highlight-date">May 03, 2025</h3>
         <h2>Empowering Trainees Through Purposeful Instruction</h2>
@@ -299,7 +299,7 @@
     </div>
 
     <div class="highlightCon" style="background-image: linear-gradient(to left, rgba(255, 255, 255, 1) 40%, rgba(255, 255, 255, 0) 100%), 
-      url(images/auto.jpg);">
+      url(public/images/auto.jpg);">
       <div class="highlight-content">
         <h3 class="highlight-date">May 12, 2025</h3>
         <h2>Driving Global Opportunities Through Automotive Skills</h2>
@@ -314,7 +314,7 @@
     </div>
 
     <div class="highlightCon" style="background-image: linear-gradient(to left, rgba(255, 255, 255, 1) 40%, rgba(255, 255, 255, 0) 100%), 
-      url(images/Automotive.jpg);">
+      url(public/images/Automotive.jpg);">
       <div class="highlight-content">
         <h3 class="highlight-date">May 25, 2025</h3> <!-- Edit Date -->
         <h2>Gear Up: Student Skills in Motion</h2> <!-- Title(Header) -->
@@ -369,7 +369,7 @@
             };
       
             localStorage.setItem("highlightData", JSON.stringify(data));
-            window.location.href = "register.html";
+            window.location.href = "public/register.html";
           });
         });
       
@@ -406,21 +406,21 @@
         
         <div id="links">
           <a href="https://www.facebook.com/sacredgiftofgod" class="clickable">
-            <img src="images/facebook.png" alt="icon"><p><u>SacredGiftOfGod</u></p>
+            <img src="public/images/facebook.png" alt="icon"><p><u>SacredGiftOfGod</u></p>
           </a>
           <a>
-          <img src="images/number.png" alt="icon">
+          <img src="public/images/number.png" alt="icon">
           <p>Tel # 028331104<br> GLOBE | 0945-126-2853<br> SMART | 0962-076-2300</p></a>
         </div>
         <a href="https://www.facebook.com/sacredgiftofgod" class="logo">
-          <img src="images/SGGlogo.png">
+          <img src="public/images/SGGlogo.png">
         </a>
       </div>
 
 
       <div class="mid">
         <h1>Our Location</h1>
-        <p><img src="images/location.png" alt="icon">9001 block 6 phase 3, Villa San Isidro, <br>San Isidro, Rizal, 1860
+        <p><img src="public/images/location.png" alt="icon">9001 block 6 phase 3, Villa San Isidro, <br>San Isidro, Rizal, 1860
         </p>
         
         <div class="map-container">
@@ -434,7 +434,7 @@
       <div class="right">
         <h1>Save this for Donations!</h1>
         <!--<img src="images/sampleqr.png">-->
-        <p class="bank-info"><img src="images/bank-account-logo.png" alt="icon">Philippine Savings Bank <br>via 233330001891</p>
+        <p class="bank-info"><img src="public/images/bank-account-logo.png" alt="icon">Philippine Savings Bank <br>via 233330001891</p>
         <div class="bible-verse">
           <p>Proverbs 19:17: "Whoever is kind to the poor lends to the Lord, and he will reward them for what they have done."</p>
         </div>
